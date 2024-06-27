@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Details</title>
+        <link rel="stylesheet" href="main.css" type="text/css">
+    </head>
+    <body>
+        <h1>My Details</h1>
+        <hr>
+        <p>
+            <ul>
+                <li>Name:  Vijay</li>
+                <li>Age: 49</li>
+                <li>Address: Channai</li>
+                <li>Phone: 9876543210</li>
+                <li>Profile Photo: </li>
+                <figure>
+                    <img src="image/vijay.jfif" alt="my image">
+                </figure>  
+                <li><a href="#contactme">Contact Me</a></li>      
+            </ul>
+        </p>
+        <h4>My Schedule :</h4>
+        <table>
+            <caption>Weekly</caption>
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Working Hours</th>
+                    <th>Activity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>&nbsp; Monday &nbsp;</th>
+                    <td>&nbsp; <time datetime="10:00">10:00</time> - <time datetime="12:00">12:00</time> &nbsp;</td>
+                    <td>&nbsp; Developing &nbsp;</td>
+                </tr>
+                <tr>
+                    <th>&nbsp; Tuesday &nbsp;</th>
+                    <td>&nbsp; <time datetime="10:00">10:00</time> - <time datetime="12:00">12:00</time> &nbsp;</td>
+                    <td>&nbsp; Coding &nbsp;</td>
+                </tr>
+                <tr>
+                    <th>&nbsp; Wednesday &nbsp;</th>
+                    <td>&nbsp; <time datetime="10:00">10:00</time> - <time datetime="12:00">12:00</time> &nbsp;</td>
+                    <td>&nbsp; Testing &nbsp;</td>
+                </tr>
+                <tr>
+                    <th> &nbsp; Thursday &nbsp;</th>
+                    <td>&nbsp; <time datetime="10:00">10:00</time> - <time datetime="12:00">12:00</time> &nbsp;</td>
+                    <td>&nbsp; Analysing &nbsp;</td>
+                </tr>
+                <tr>
+                    <th>&nbsp; Friday &nbsp;</th>
+                    <td>&nbsp; <time datetime="10:00">10:00</time> - <time datetime="12:00">12:00</time> &nbsp;</td>
+                    <td>&nbsp; Deployment &nbsp;</td>
+                </tr>
+                <tr>
+                    <th rowspan="2">&nbsp; Saturday &nbsp;</th>
+                    <td rowspan="2">&nbsp; All other time &nbsp;</td>
+                    <td colspan="2">&nbsp; Traveling &nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp; Sleep &nbsp;</td>
+                </tr>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">&nbsp; Daily Schedule for my week &nbsp;</td>
+                    </tr>
+                </tfoot>
+            </tbody>
+        </table>
+        <article id="contactme">
+            <section>
+                <h3>Contact Me</h3>
+                <p>Fill the details below</p>
+                <fieldset>
+                    <legend>Your info</legend>
+                <form action=""  method="get">
+                    <label for="firstName">First Name :</label>
+                    <input type="text" name="firstName" id="firstName" placeholder="Only Capital" required>
+                    <br><br>
+                    <label for="lastName">Last Name :</label>
+                    <input type="text" name="lastName" id="lastName" placeholder="Only Capital">
+                    <br><br>
+                    <label for="Password">Password :</label>
+                    <input type="password" name="Password" id="Password" required>
+                    <br><br>
+                    <label for="Phone Number">Phone Number :</label>
+                    <input type="tel" name="Phone Number" id="Phone Number" required>
+                    <br>
+                    <br>
+                    <fieldset>
+                        <legend>Gender</legend>
+                        <input type="radio" name="Gender" id="Male">
+                        <label for="Male">Male</label>
+                        <br>
+                        <input type="radio" name="Gender" id="Female">
+                        <label for="Female">Female</label>
+                        <br>
+                        <input type="radio" name="Gender" id="Other">
+                        <label for="Other">Other</label>
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend>Select Language</legend>
+                        <input type="checkbox" name="Language" id="Java">
+                        <label for="Java">Java</label>
+                        <br>
+                        <input type="checkbox" name="Language" id="C++">
+                        <label for="C++">C++</label>
+                        <br>
+                        <input type="checkbox" name="Language" id="HTML">
+                        <label for="HTML">HTML</label>
+                        <br>
+                        <input type="checkbox" name="Language" id="Python">
+                        <label for="Python">Python</label>
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend>Course Duration</legend>
+                        <input type="radio" name="Course Duration" id="One Month">
+                        <label for="One Month">One Month</label>
+                        <br>
+                        <input type="radio" name="Course Duration" id="Three Month">
+                        <label for="Three Month">Three Month</label>
+                        <br>
+                        <input type="radio" name="Course Duration" id="Six Month">
+                        <label for="Six Month">Six Month</label>
+                        <br>
+
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend>Suggesion</legend>
+                        <textarea name="Suggesion" id="Suggesion" cols="30" rows="10" placeholder="Any Questions and Doubts about the course"></textarea>
+                    </fieldset>
+                    <button type="submit" name="Submit">Submit</button>
+                    <button type="reset" name="reset">Reset</button>
+                </form>
+            </fieldset>
+            
+            </section>
+        </article>
+    </body>
+</html>
